@@ -27,9 +27,9 @@ sourceSets {
 
 sonar {
   properties {
-    property("sonar.projectKey"), "joe-tingsanchali-sonarsource_gradle-kotlin-dsl"
-    property("sonar.organization"), "joe-tingsanchali-sonarsource"
-    property("sonar.host.url"), "https://sonarcloud.io"
+    property("sonar.projectKey", "joe-tingsanchali-sonarsource_gradle-kotlin-dsl")
+    property("sonar.organization", "joe-tingsanchali-sonarsource")
+    property("sonar.host.url", "https://sonarcloud.io")
   }
 }
 
