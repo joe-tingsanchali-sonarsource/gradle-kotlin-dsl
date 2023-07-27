@@ -6,7 +6,7 @@ plugins {
     jacoco
     `java-library`
     id("org.flywaydb.flyway") version "9.20.0"
-    id("org.sonarqube") version "4.2.1.3168"
+    id("org.sonarqube") version "4.3.0.3225"
 }
 
 version = "1.0-SNAPSHOT"
