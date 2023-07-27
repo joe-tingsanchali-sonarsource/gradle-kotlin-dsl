@@ -26,10 +26,11 @@ sourceSets {
 }
 
 sonar {
-    properties {
-        property("sonar.projectKey", "baeldung-gradle-kotlin-dsl")
-        property("sonar.projectName", "Example of Gradle Project with Kotlin DSL")
-    }
+  properties {
+    property("sonar.projectKey"), "joe-tingsanchali-sonarsource_gradle-kotlin-dsl"
+    property("sonar.organization"), "joe-tingsanchali-sonarsource"
+    property("sonar.host.url"), "https://sonarcloud.io"
+  }
 }
 
 val integrationTestImplementation: Configuration by configurations.getting {
