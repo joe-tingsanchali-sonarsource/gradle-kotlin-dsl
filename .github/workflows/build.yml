@@ -5,6 +5,10 @@ on:
       - main
   pull_request:
     types: [opened, synchronize, reopened]
+
+env:
+  GRADLE_OPTS: "-Dorg.sonarqube.gradle.SonarTasK=DEBUG"
+
 jobs:
   build:
     name: Build and analyze
