@@ -2,7 +2,7 @@
 
 Example taken from https://github.com/Baeldung/kotlin-tutorials/tree/master/gradle-kotlin-dsl
 
-This example repository exemplifies usage of integrating [SonarScanner for Gradle](https://docs.sonarqube.org/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/) with Gradle's Kotlin DSL.
+This example repository exemplifies the usage of integrating [SonarScanner for Gradle](https://docs.sonarqube.org/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/) with Gradle's Kotlin DSL.
 
 ## Example Usage
 Obtain your user token from your own account. See [Generating and using tokens](https://docs.sonarqube.org/latest/user-guide/user-account/generating-and-using-tokens/) for more information.
